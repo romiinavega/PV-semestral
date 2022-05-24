@@ -1,24 +1,24 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="GameUI.uss" />
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
     <ui:VisualElement name="container" class="container" style="bottom: 20px;">
-        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px;">
+        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px; background-color: rgba(250, 117, 142, 0.62); -unity-text-outline-color: rgba(123, 82, 82, 255); border-left-color: rgb(239, 255, 0); border-right-color: rgb(239, 255, 0); border-top-color: rgb(239, 255, 0); border-bottom-color: rgb(239, 255, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 100px; border-bottom-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; width: 80%;">
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b4895c26dedd91c46a47999220a9fe0f&amp;type=3#MaggieFace&apos;); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;" />
+                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="-unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=ed2739dad3158514db03023a2361ac83&amp;type=3#NotInter-Regular&apos;); -unity-text-align: upper-left; -unity-font-style: bold; font-size: 25px; color: rgba(158, 39, 202, 255);" />
+                <uie:ProgressBar name="health" low-value="90" high-value="100" tooltip="Health" title="HP" class="health" style="background-color: rgba(0, 0, 0, 255); height: 19px; -unity-font-style: bold-and-italic;" />
+                <uie:ProgressBar name="mana" low-value="50" title="MANA" class="progressBarMana mana" style="-unity-font-style: bold-and-italic; color: rgba(255, 255, 255, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/LisaFace.png?fileID=2800000&amp;guid=03eb5d19cc35c084a8a1fef552a22a94&amp;type=3#LisaFace&apos;); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="color: rgba(125, 243, 196, 255); -unity-font-style: bold; font-size: 25px;" />
+                <uie:ProgressBar name="health" low-value="71.2" title="HP" class="health" style="-unity-text-outline-color: rgba(0, 0, 0, 255); -unity-font-style: bold-and-italic;" />
+                <uie:ProgressBar name="mana" low-value="15.43" title="ENERGY" class="energy progressBarEnergy" style="-unity-font-style: bold-and-italic;" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=4ad658a60c55f7f4bb9eac80330e8835&amp;type=3#BartFace&apos;); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="-unity-font-style: bold; color: rgba(254, 254, 132, 255);" />
+                <uie:ProgressBar name="health" low-value="50" title="HP" class="health" style="-unity-font-style: bold-and-italic;" />
+                <uie:ProgressBar name="mana" title="ENERGY" low-value="25" class="energy progressBarEnergy" style="-unity-font-style: bold-and-italic;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
